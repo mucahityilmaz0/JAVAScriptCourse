@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 //if (js === "amazing") alert("JavaScript is FUN!");
 console.log(1 + 1 + 1 + 1);
@@ -38,3 +39,18 @@ console.log(typeof year);
 
 year = 1996;
 console.log(typeof year);
+*/
+
+let age = 30;
+age = 31;
+
+const birthYear = 1996;
+//birtYear = 1990;
+
+//const job;
+
+var job = "programmer";
+job = "teacher";
+
+lastName = "Yılmaz";
+console.log(lastName);
