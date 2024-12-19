@@ -54,7 +54,7 @@ job = "teacher";
 
 lastName = "Yılmaz";
 console.log(lastName);
-*/
+
 const now = 2024;
 const ageMucahit = now - 1996;
 const ageJonas = now - 1991;
@@ -75,3 +75,18 @@ x--;
 console.log(x);
 
 console.log(ageMucahit > ageJonas);
+*/
+
+//Coding Challenge #1
+let massMark = 78;
+let heightMark = 1.69;
+let massJohn = 92;
+let heightJohn = 1.95;
+
+let markBMI = massMark / heightMark ** 2;
+let johnBMI = massJohn / heightJohn ** 2;
+console.log("Mark BMI=" + markBMI);
+console.log("John BMI=" + johnBMI);
+
+let markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
