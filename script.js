@@ -39,7 +39,7 @@ console.log(typeof year);
 
 year = 1996;
 console.log(typeof year);
-*/
+
 
 let age = 30;
 age = 31;
@@ -54,3 +54,24 @@ job = "teacher";
 
 lastName = "Yılmaz";
 console.log(lastName);
+*/
+const now = 2024;
+const ageMucahit = now - 1996;
+const ageJonas = now - 1991;
+console.log(ageMucahit, ageJonas);
+
+console.log(ageJonas * 2, ageJonas / 10, 2 ** 3); // 2**3 means to the power of 3 = 2 * 2 * 2;
+
+const firstName = "Mücahit";
+const lastName = "Yılmaz";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+x--;
+console.log(x);
+
+console.log(ageMucahit > ageJonas);
