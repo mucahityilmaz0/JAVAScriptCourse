@@ -111,23 +111,44 @@ console.log(`for \n\
 multiple \n\
 lines`);
 
-*/
 
 const age = 8;
 const isOldEnough = age >= 18;
 
 if (isOldEnough) {
-  console.log("Sarah can start driving license");
+    console.log("Sarah can start driving license");
 } else {
-  const yearsLeft = 18 - age;
-  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+    const yearsLeft = 18 - age;
+console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
 }
 
 const birthYear = 1996;
 let century;
 if (birthYear <= 2000) {
-  century = 20;
+    century = 20;
 } else {
-  century = 21;
+    century = 21;
 }
 console.log(century);
+
+*/
+
+const inputYear = "1996";
+
+console.log(inputYear + 18);
+
+console.log(Number(inputYear) + 18);
+
+console.log(inputYear);
+
+console.log(typeof NaN);
+
+console.log(" I am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" / "2");
+
+let n = "1" + 1;
+n--;
+console.log(n);
+n = n - 1;
+console.log(n);
