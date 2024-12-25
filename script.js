@@ -75,7 +75,7 @@ x--;
 console.log(x);
 
 console.log(ageMucahit > ageJonas);
-*/
+
 
 //Coding Challenge #1
 let massMark = 78;
@@ -90,3 +90,24 @@ console.log("John BMI=" + johnBMI);
 
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+*/
+
+const firstName = "Mücahit";
+const job = "Student";
+const birthYear = 1996;
+const year = 2025;
+const age = year - birthYear;
+
+const mucahit = "I'm " + firstName + ", a " + age + " years old " + job + "!";
+
+console.log(mucahit);
+
+const mucahitNew = `I'm ${firstName}, a ${age} years old ${job}!`;
+
+console.log(mucahitNew);
+
+console.log(`just log to strings`);
+
+console.log(`for \n\
+multiple \n\
+lines`);
