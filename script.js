@@ -90,7 +90,6 @@ console.log("John BMI=" + johnBMI);
 
 let markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
-*/
 
 const firstName = "Mücahit";
 const job = "Student";
@@ -111,3 +110,24 @@ console.log(`just log to strings`);
 console.log(`for \n\
 multiple \n\
 lines`);
+
+*/
+
+const age = 8;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Sarah can start driving license");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 1996;
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
