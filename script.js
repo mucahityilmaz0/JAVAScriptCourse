@@ -152,7 +152,6 @@ console.log(n);
 n = n - 1;
 console.log(n);
 
-*/
 
 console.log(Boolean(0));
 console.log(Boolean(undefined));
@@ -165,14 +164,39 @@ console.log(Boolean(""));
 const money = 0;
 
 if (money) {
-  console.log("Don't spend it all ;)");
+    console.log("Don't spend it all ;)");
 } else {
-  console.log("You should get a job!");
+    console.log("You should get a job!");
 }
 
 let height;
 if (height) {
-  console.log("YAY! Height is defined");
+    console.log("YAY! Height is defined");
 } else {
-  console.log("Height is UNDEFINED");
+    console.log("Height is UNDEFINED");
 }
+
+*/
+
+const age = "18";
+
+if (age === 18) console.log("You just became an adult.(3=)");
+console.log(Boolean(age == "18"));
+console.log(Boolean(age === "18")); // this make sure both side equal types
+if (age == 18) console.log("You just became an adult.(1=)");
+
+const favouriteNumber = Number(
+  prompt("What's your favourite number?(for check enter 4 or 23)")
+);
+console.log(favouriteNumber);
+console.log(typeof favouriteNumber);
+
+if (favouriteNumber === 4) {
+  console.log("Cool! 4 is an amazing number!");
+} else if (favouriteNumber === 23) {
+  console.log("23 is also cool number");
+} else {
+  console.log("Number is not 4 or 23");
+}
+
+if (favouriteNumber !== 23) console.log("Why not 23?");
