@@ -245,7 +245,7 @@ if (day === "monday") {
   console.log("Not a valid day!");
 }
 
-*/
+
 
 3 + 4;
 1996;
@@ -257,3 +257,16 @@ if (23 > 10) {
 
 console.log(`I'm ${2025 - 1996} years old ${23 > 10 ? "true" : "false"}`);
 //console.log(`I'm ${2025 - 1996} years old ${23 > 10 ? const str = "23 is bigger" : "false"}`);
+
+*/
+
+"use strict";
+
+let hasDriversLicence = false;
+const passTest = true;
+
+if (passTest) hasDriversLicence = true;
+if (hasDriversLicence) console.log("I can drive :D");
+
+//const interface = "Audio";
+//const private = 534;
