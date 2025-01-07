@@ -262,6 +262,7 @@ console.log(`I'm ${2025 - 1996} years old ${23 > 10 ? "true" : "false"}`);
 
 "use strict";
 
+/*
 let hasDriversLicence = false;
 const passTest = true;
 
@@ -270,3 +271,23 @@ if (hasDriversLicence) console.log("I can drive :D");
 
 //const interface = "Audio";
 //const private = 534;
+*/
+
+function logger() {
+  console.log("My name is Mücahit");
+}
+
+logger();
+logger();
+logger();
+
+function fruitProcessor(apples, oranges) {
+  const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+  return juice;
+}
+
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
