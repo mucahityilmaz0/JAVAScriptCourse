@@ -176,7 +176,6 @@ if (height) {
     console.log("Height is UNDEFINED");
 }
 
-*/
 
 const age = "18";
 
@@ -186,17 +185,62 @@ console.log(Boolean(age === "18")); // this make sure both side equal types
 if (age == 18) console.log("You just became an adult.(1=)");
 
 const favouriteNumber = Number(
-  prompt("What's your favourite number?(for check enter 4 or 23)")
+    prompt("What's your favourite number?(for check enter 4 or 23)")
 );
 console.log(favouriteNumber);
 console.log(typeof favouriteNumber);
 
 if (favouriteNumber === 4) {
-  console.log("Cool! 4 is an amazing number!");
+    console.log("Cool! 4 is an amazing number!");
 } else if (favouriteNumber === 23) {
-  console.log("23 is also cool number");
+    console.log("23 is also cool number");
 } else {
-  console.log("Number is not 4 or 23");
+    console.log("Number is not 4 or 23");
 }
 
 if (favouriteNumber !== 23) console.log("Why not 23?");
+
+*/
+
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("go to coding meetup");
+    break;
+  case "tuesday":
+    console.log("Prepare theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("write code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend :D");
+    break;
+  default:
+    console.log("Not a valid day!");
+    break;
+}
+
+//Switch case to if else
+
+if (day === "monday") {
+  console.log("Plan course structure");
+  console.log("go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("Prepare theory videos");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("write code examples");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday" || day === "sunday") {
+  console.log("Enjoy the weekend :D");
+} else {
+  console.log("Not a valid day!");
+}
