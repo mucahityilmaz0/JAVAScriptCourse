@@ -200,7 +200,7 @@ if (favouriteNumber === 4) {
 
 if (favouriteNumber !== 23) console.log("Why not 23?");
 
-*/
+
 
 const day = "monday";
 
@@ -244,3 +244,16 @@ if (day === "monday") {
 } else {
   console.log("Not a valid day!");
 }
+
+*/
+
+3 + 4;
+1996;
+true && false && !false;
+
+if (23 > 10) {
+  const str = "23 is bigger";
+}
+
+console.log(`I'm ${2025 - 1996} years old ${23 > 10 ? "true" : "false"}`);
+//console.log(`I'm ${2025 - 1996} years old ${23 > 10 ? const str = "23 is bigger" : "false"}`);
