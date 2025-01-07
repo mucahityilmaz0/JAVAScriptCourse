@@ -271,7 +271,7 @@ if (hasDriversLicence) console.log("I can drive :D");
 
 //const interface = "Audio";
 //const private = 534;
-*/
+
 
 function logger() {
   console.log("My name is Mücahit");
@@ -291,3 +291,17 @@ console.log(appleJuice);
 
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
+
+*/
+
+//funtion declaration
+function calcAge1(birthYear) {
+  return 2025 - birthYear;
+}
+const age1 = calcAge1(1996);
+
+const calcAge2 = function (birthYear) {
+  return 2025 - birthYear;
+};
+const age2 = calcAge2(1996);
+console.log(age1, age2);
