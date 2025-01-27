@@ -336,7 +336,7 @@ function fruitProcessor(apples, oranges) {
 
 console.log(fruitProcessor(2, 3));
 
-*/
+
 const calcAge = function (birthYear) {
   return 2025 - birthYear;
 };
@@ -356,3 +356,40 @@ const yearUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearUntilRetirement(1996, "Mücahit"));
 console.log(yearUntilRetirement(1960, "Mahmut"));
+*/
+
+const friend1 = "Michael";
+const friend2 = "Steven";
+const friend3 = "Peter";
+
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+const years = new Array(1996, 1984, 2008, 2025);
+
+console.log(friends[0]);
+console.log(friends[2]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = "Jay";
+console.log(friends);
+
+//friends = ["Bob", "Alice"]; we can't change
+//friends = ["m", "s", "p"]; its not about size
+
+const firstName = "Mücahit";
+const mucahit = [firstName, "yılmaz", 2025 - 1996, "student", friends];
+
+console.log(mucahit);
+console.log(mucahit.length);
+
+function calcAge1(birthYear) {
+  return 2025 - birthYear;
+}
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+  ages[i] = calcAge1(years[i]);
+}
+console.log(ages);
