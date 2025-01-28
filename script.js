@@ -393,7 +393,6 @@ for (let i = 0; i < years.length; i++) {
 }
 console.log(ages);
 
-*/
 
 const friends = ["Michael", "Steven", "Peter"];
 console.log(friends);
@@ -428,3 +427,27 @@ console.log(friends.includes(23));
 if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
+
+*/
+
+const mucahitArray = [
+  "Mücahit",
+  "Yılmaz",
+  2025 - 1996,
+  "student",
+  ["Michael", "Steven", "Peter"],
+];
+
+console.log(mucahitArray);
+
+const mucahit = {
+  firstName: "Mucahit",
+  lastName: "Yılmaz",
+  age: 2025 - 1996,
+  job: "student",
+  friends: ["Michael", "Steven", "Peter"],
+};
+
+console.log(mucahit);
+console.log(mucahit.age);
+console.log(mucahit.friends);
