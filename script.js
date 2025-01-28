@@ -428,8 +428,6 @@ if (friends.includes("Steven")) {
   console.log("You have a friend called Steven");
 }
 
-*/
-
 const mucahitArray = [
   "Mücahit",
   "Yılmaz",
@@ -451,3 +449,43 @@ const mucahit = {
 console.log(mucahit);
 console.log(mucahit.age);
 console.log(mucahit.friends);
+
+*/
+
+const mucahit = {
+  firstName: "Mucahit",
+  lastName: "Yılmaz",
+  age: 2025 - 1996,
+  job: "student",
+  friends: ["Michael", "Steven", "Peter"],
+};
+const nameKey = "Name";
+console.log(mucahit["first" + nameKey]);
+console.log(mucahit["last" + nameKey]);
+
+const interestedIn = prompt(
+  "What do you want to know about Mucahit? Choose between firstName, lastName, age, job and friends"
+);
+
+if (mucahit[interestedIn]) {
+  console.log(mucahit[interestedIn]);
+} else {
+  console.log(
+    "Wrong request! Choose between firstName, lastName, age, job and friends"
+  );
+}
+
+mucahit.location = "Turkiye";
+mucahit["X"] = "@gmucahityilmaz";
+console.log(mucahit);
+
+//Challenge
+//"Mucahit has 3 friends, and his best friend is called Michael"
+
+console.log(
+  mucahit.firstName +
+    " has " +
+    mucahit.friends.length +
+    " friends, and his best friend is called " +
+    mucahit.friends[0]
+);
